@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ru.vsu.csf.Sashina.FrameMain">
+  <grid id="27dc6" binding="Main" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15957"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="45d79" binding="paintArea" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-855310"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="bce8d" class="javax.swing.JTextField" binding="treeField">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1718273"/>
+        </properties>
+      </component>
+      <component id="33bd8" class="javax.swing.JButton" binding="paintTree">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1718273"/>
+          <foreground color="-16777216"/>
+          <text value="Нарисовать дерево"/>
+        </properties>
+      </component>
+      <component id="d4fe4" class="javax.swing.JLabel" binding="paintTreeMist">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15957"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="26a69" class="javax.swing.JLabel" binding="searchTreeMist">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15957"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6045b" class="javax.swing.JButton" binding="nodeRout">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1718273"/>
+          <foreground color="-16777216"/>
+          <text value="Вернуть путь данного узла"/>
+        </properties>
+      </component>
+      <component id="ce2b8" class="javax.swing.JLabel" binding="nodeRoutLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15957"/>
+          <foreground color="-16777216"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c9eaf" class="javax.swing.JButton" binding="clearButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1718273"/>
+          <enabled value="true"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <text value="Очистить всё"/>
+        </properties>
+      </component>
+      <component id="1775c" class="javax.swing.JButton" binding="deleteLeaf">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1718273"/>
+          <foreground color="-16777216"/>
+          <text value="Найти лист"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
